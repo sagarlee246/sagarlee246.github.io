@@ -1,47 +1,68 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /Repositories/
+title: Repositories
+description: Selected GitHub projects and profile links.
 nav: true
 nav_order: 3
 ---
 
+## GitHub Profile
+
 {% if site.data.repositories.github_users %}
+  <p><a href="https://github.com/{{ site.data.repositories.github_users.first }}">github.com/{{ site.data.repositories.github_users.first }}</a></p>
 
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
+  {% if site.repo_trophies.enabled %}
+    <p>GitHub trophies are available on your profile page, but the page is kept simple here to avoid broken image cards.</p>
   {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
 {% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
 
 ## GitHub Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
+<div class="repo-gallery">
+  <a class="repo-tile" href="https://github.com/sagarlee246/CPPJourney">
+    <img src="{{ '/assets/img/CPPlogo.png' | relative_url | bust_file_cache }}" alt="CPP Journey">
+    <span>CPP Journey</span>
+  </a>
+
+  <a class="repo-tile" href="https://github.com/sagarlee246/AMAS">
+    <img src="{{ '/assets/img/AMAS.png' | relative_url | bust_file_cache }}" alt="AMAS">
+    <span>AMAS</span>
+  </a>
+
+  <a class="repo-tile" href="https://github.com/sagarlee246/AppStat">
+    <img src="{{ '/assets/img/AS.png' | relative_url | bust_file_cache }}" alt="AppStat">
+    <span>AppStat</span>
+  </a>
 </div>
-{% endif %}
+
+<style>
+  .repo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .repo-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .repo-tile img {
+    width: 100%;
+    min-height: 160px;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background: var(--global-card-bg-color);
+    object-fit: cover;
+  }
+
+  .repo-tile span {
+    text-align: center;
+    font-weight: 600;
+  }
+</style>

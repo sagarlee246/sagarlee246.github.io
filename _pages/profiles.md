@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: People
 description: people section is currently inactive.
 nav: false
 nav_order: 7

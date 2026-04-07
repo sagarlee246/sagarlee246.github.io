@@ -1,8 +1,8 @@
 ---
-layout: about
-title: about
+layout: Home
+title: Home
 permalink: /
-subtitle: Research, projects, and updates.
+subtitle: MSc student in Physics at UCPH
 
 profile:
   align: right
@@ -26,5 +26,6 @@ latest_posts:
 ---
 
 Greeting! I am Sagar Clemensen. Sagar is Indian (सागर in Hindi) and pronounced /'sɑːgər/. Despite not having any Indian heritage, my parents name me Sagar because they met in India.
+
 I am a first year master student in the Physics department at the University of Copenhagen. I work with experimental quantum physics, specifically electrical characterization of quantum materials. 
 I am also interested in statistics, data analysis, and machine learning.

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blog/
-title: blog
+title: Blog
 description: blog section is currently inactive.
 nav: false
 nav_order: 1

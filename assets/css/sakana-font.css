@@ -1,0 +1,12 @@
+/*
+ * Custom Font Face for Sakana
+ * Uses the font file added at assets/webfonts/sakana.regular.ttf
+ */
+
+@font-face {
+  font-family: "Sakana";
+  src: url("/assets/webfonts/sakana.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

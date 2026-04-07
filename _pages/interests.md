@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /interests/
-title: interests
+permalink: /Interests/
+title: Interests
 description: Research interests and areas of focus.
 nav: true
 nav_order: 4

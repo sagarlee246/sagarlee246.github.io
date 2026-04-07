@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: teaching section is currently inactive.
 nav: false
 nav_order: 6

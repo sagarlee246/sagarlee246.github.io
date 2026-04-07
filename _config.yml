@@ -6,8 +6,6 @@ title: Sagar Clemensen # the website title (if blank, full name will be used ins
 first_name: Sagar
 # middle_name: R.
 last_name: Clemensen
-subtitle: MSc student in Physics at UCPH
-custom_font: dune-rise # Dune Rise font from dafont.com - host .woff/.woff2 files in assets/fonts/
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

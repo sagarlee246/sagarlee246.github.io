@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: publications page is currently inactive.
 nav: false
 nav_order: 2
