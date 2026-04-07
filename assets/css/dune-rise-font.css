@@ -1,0 +1,15 @@
+/*
+ * Custom Font Face for Dune Rise
+ * This font must be downloaded from https://www.dafont.com/dune-rise.font
+ * and placed in assets/fonts/ directory with extensions: .woff, .woff2, or .ttf
+ */
+
+@font-face {
+  font-family: "Dune Rise";
+  src: url("/assets/fonts/dune-rise.woff2") format("woff2"),
+       url("/assets/fonts/dune-rise.woff") format("woff"),
+       url("/assets/fonts/dune-rise.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
