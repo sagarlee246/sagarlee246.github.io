@@ -2,6 +2,8 @@
 
 A simple, clean, and responsive Jekyll theme for academics.
 
+Use this file as a navigation hub. For technical details, use `.github/copilot-instructions.md` as the primary source of truth.
+
 ## Quick Links by Role
 
 - **Are you a coding agent?** → Read [`.github/copilot-instructions.md`](.github/copilot-instructions.md) first (tech stack, build, CI/CD, common pitfalls & solutions)
@@ -12,57 +14,46 @@ A simple, clean, and responsive Jekyll theme for academics.
 - **Customization & theming?** → [CUSTOMIZE.md](CUSTOMIZE.md)
 - **Quick 5-min start?** → [QUICKSTART.md](QUICKSTART.md)
 
-## Essential Commands
+## Source of Truth
 
-### Local Development (Docker)
+When guidance overlaps, prioritize these references in order:
 
-The recommended approach is using Docker.
+1. [`.github/copilot-instructions.md`](.github/copilot-instructions.md) — tech stack, build/test commands, CI/CD behavior, known pitfalls
+2. [`.github/instructions/`](.github/instructions/) — file-type-specific editing rules via `applyTo`
+3. Project docs such as [INSTALL.md](INSTALL.md), [CUSTOMIZE.md](CUSTOMIZE.md), [TROUBLESHOOTING.md](TROUBLESHOOTING.md), and [CONTRIBUTING.md](CONTRIBUTING.md)
 
-```bash
-# Initial setup & start dev server
-docker compose pull && docker compose up
-# Site runs at http://localhost:8080
+## Build and Validation
 
-# Rebuild after changing dependencies or Dockerfile
-docker compose up --build
+Use these command references instead of duplicating command blocks here:
 
-# Stop containers and free port 8080
-docker compose down
-```
+- Local development and Docker workflow:
+    [`.github/copilot-instructions.md#building--local-development`](.github/copilot-instructions.md#building--local-development)
+- Pre-commit checks and formatting requirements:
+    [`.github/copilot-instructions.md#pre-commit-requirements`](.github/copilot-instructions.md#pre-commit-requirements)
+- Common deployment/build issues and fixes:
+    [`.github/copilot-instructions.md#common-pitfalls--workarounds`](.github/copilot-instructions.md#common-pitfalls--workarounds)
+- Expanded troubleshooting catalog:
+    [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
-### Pre-Commit Checklist
+## Project Boundaries
 
-Before every commit, you **must** run these steps:
+- Site-wide config and feature flags: `_config.yml`, `_data/*.yml`
+- Content collections: `_posts/`, `_pages/`, `_projects/`, `_news/`, `_books/`, `_teachings/`
+- UI templates: `_layouts/`, `_includes/`
+- Styling and scripts: `_sass/`, `_scripts/`
+- Publications: `_bibliography/papers.bib`
 
-1.  **Format Code:**
-    ```bash
-    # (First time only)
-    npm install --save-dev prettier @shopify/prettier-plugin-liquid
-    # Format all files
-    npx prettier . --write
-    ```
-2.  **Build Locally & Verify:**
+For details and conventions, see:
 
-    ```bash
-    # Rebuild the site
-    docker compose up --build
-
-    # Verify by visiting http://localhost:8080.
-    # Check navigation, pages, images, and dark mode.
-    ```
-
-## Critical Configuration
-
-When modifying `_config.yml`, these **must be updated together**:
-
-- **Personal site:** `url: https://username.github.io` + `baseurl:` (empty)
-- **Project site:** `url: https://username.github.io` + `baseurl: /repo-name/`
-- **YAML errors:** Quote strings with special characters: `title: "My: Cool Site"`
+- [README.md](README.md)
+- [CUSTOMIZE.md](CUSTOMIZE.md)
+- [`.github/copilot-instructions.md#project-layout--key-files`](.github/copilot-instructions.md#project-layout--key-files)
 
 ## Development Workflow
 
-- **Git & Commits:** For commit message format and Git practices, see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
-- **Code-Specific Instructions:** Consult the relevant instruction file for your code type.
+For commit message format and git practices, see [`.github/GIT_WORKFLOW.md`](.github/GIT_WORKFLOW.md).
+
+Use file-scoped instructions for edits:
 
 | File Type                                     | Instruction File                                                                                |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -72,10 +63,14 @@ When modifying `_config.yml`, these **must be updated together**:
 | Liquid templates (`_includes/`, `_layouts/`)  | [liquid-templates.instructions.md](.github/instructions/liquid-templates.instructions.md)       |
 | JavaScript (`_scripts/`)                      | [javascript-scripts.instructions.md](.github/instructions/javascript-scripts.instructions.md)   |
 
-## Common Issues
+## Documentation Map
 
-For troubleshooting, see:
+- Setup and deployment: [INSTALL.md](INSTALL.md)
+- Theme and feature customization: [CUSTOMIZE.md](CUSTOMIZE.md)
+- Common issues and fixes: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+- Contribution process: [CONTRIBUTING.md](CONTRIBUTING.md)
+- SEO configuration: [SEO.md](SEO.md)
+- Analytics options: [ANALYTICS.md](ANALYTICS.md)
+- FAQ: [FAQ.md](FAQ.md)
 
-- [Common Pitfalls & Workarounds](.github/copilot-instructions.md#common-pitfalls--workarounds) in copilot-instructions.md
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions
-- [GitHub Issues](https://github.com/alshedivat/al-folio/issues) to search for your specific problem.
+For issue history and edge cases, also see [GitHub Issues](https://github.com/alshedivat/al-folio/issues).
