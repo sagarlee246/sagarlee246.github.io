@@ -11,27 +11,23 @@ nav_order: 3
 
 {% if site.data.repositories.github_users %}
   <p><a href="https://github.com/{{ site.data.repositories.github_users.first }}">github.com/{{ site.data.repositories.github_users.first }}</a></p>
-
-  {% if site.repo_trophies.enabled %}
-    <p>GitHub trophies are available on your profile page, but the page is kept simple here to avoid broken image cards.</p>
-  {% endif %}
 {% endif %}
 
 ## GitHub Repositories
 
 <div class="repo-gallery">
   <a class="repo-tile" href="https://github.com/sagarlee246/CPPJourney">
-    <img src="{{ '/assets/img/CPPlogo.png' | relative_url | bust_file_cache }}" alt="CPP Journey">
+    <img class="repo-image repo-image-square" src="{{ '/assets/img/CPPlogo.png' | relative_url | bust_file_cache }}" alt="CPP Journey">
     <span>CPP Journey</span>
   </a>
 
   <a class="repo-tile" href="https://github.com/sagarlee246/AMAS">
-    <img src="{{ '/assets/img/AMAS.png' | relative_url | bust_file_cache }}" alt="AMAS">
+    <img class="repo-image" src="{{ '/assets/img/AMAS.png' | relative_url | bust_file_cache }}" alt="AMAS">
     <span>AMAS</span>
   </a>
 
   <a class="repo-tile" href="https://github.com/sagarlee246/AppStat">
-    <img src="{{ '/assets/img/AS.png' | relative_url | bust_file_cache }}" alt="AppStat">
+    <img class="repo-image" src="{{ '/assets/img/AS.png' | relative_url | bust_file_cache }}" alt="AppStat">
     <span>AppStat</span>
   </a>
 </div>
@@ -52,13 +48,18 @@ nav_order: 3
     color: inherit;
   }
 
-  .repo-tile img {
+  .repo-image {
     width: 100%;
     min-height: 160px;
     border: 1px solid var(--global-divider-color);
     border-radius: 14px;
     background: var(--global-card-bg-color);
     object-fit: cover;
+  }
+
+  .repo-image-square {
+    object-fit: contain;
+    padding: 0.75rem;
   }
 
   .repo-tile span {
