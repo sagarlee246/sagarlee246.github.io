@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: blank/al-folio/sitemap.xml
+Sitemap: https://sagarlee246.github.io/al-folio/sitemap.xml
