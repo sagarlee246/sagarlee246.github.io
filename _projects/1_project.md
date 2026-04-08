@@ -2,7 +2,7 @@
 layout: page
 title: Teaching and Understanding the Quantum Hall Effect Experimentally
 description: Bachelor thesis project on the quantum Hall effect.
-img: assets/img/QHE
+img: /assets/img/QHE.png
 importance: 1
 category: Physics
 related_publications: true

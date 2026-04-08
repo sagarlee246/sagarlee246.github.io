@@ -2,7 +2,7 @@
 layout: page
 title: Construction and Characterization of an Analog Lock-In Amplifier
 description: Building an analog lock-in amplifier from scratch, including design, construction, and testing of the amplifier's performance in extracting weak signals from noisy environments.
-img: assets/img/LockIn
+img: /assets/img/LockIn.png
 importance: 3
 category: Physics
 ---

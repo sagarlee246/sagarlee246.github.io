@@ -1,7 +1,6 @@
 cv:
   sections:
     Academic Interests:
-      - name: Research Interests
         keywords:
           - experimental quantum physics
           - electronic characterization
@@ -19,7 +18,7 @@ cv:
         studyType: BSc
         start_date: 2022
         end_date: 2025
-        score: ""
+        score: "10.9/12"
 
       - institution: University of Wisconsin-Madison
         location: Madison, Wisconsin, US
@@ -37,7 +36,7 @@ cv:
         studyType: MSc
         start_date: 2025
         end_date: 2027
-        score: ""
+        score: "10.5/12"
 
     Coursework:
       - bullet: "UW-Madison: Solid State Physics, Solid State Electronics, Cryptography"
@@ -46,12 +45,13 @@ cv:
       - bullet: "Other: Linear Algebra, Calculus, Differential Equations, Numerical Methods"
 
     Experience:
-      - company: Allerød Gymnasium
-        position: Mathematics Teacher
-        location: Allerød, Denmark
-        start_date: 2023
-        end_date: 2025
-        summary: Teaching mathematics to high school students, including algebra, geometry, trigonometry, and calculus. I also prepare lesson plans, grade assignments, conduct exams, and provide feedback to students.
+      - company: University of Copenhagen
+        position: Teachers Assistant at Novo Nordisk Foundation Quantum Computing Programme (NQCP)
+        location: Copenhagen, Denmark
+        start_date: 2025
+        end_date: 2026
+        summary: Helping develop teaching materials in quantum technology for high school and university students. 
+          I was an advisor for two groups of first year students on their first year projects. 
 
       - company: University of Copenhagen
         position: Student Study Advisor
@@ -60,9 +60,11 @@ cv:
         end_date: 2026
         summary: Planned internships for 3rd-year high school students and 9th-grade primary school pupils, ensuring meaningful educational experiences
 
-      - company: University of Copenhagen
-        position: Teachers Assistant at Novo Nordisk Foundation Quantum Computing Programme (NQCP)
-        location: Copenhagen, Denmark
-        start_date: 2025
-        end_date: 2026
-        summary: Helping develop teaching materials in quantum technology for high school and university students. I was an advisor for two groups of first year students on their first year projects. 
+        
+      - company: Allerød Gymnasium
+        position: Mathematics Teacher
+        location: Allerød, Denmark
+        start_date: 2023
+        end_date: 2025
+        summary: Teaching mathematics to high school students, including algebra, geometry, trigonometry, and calculus. I also prepare lesson plans, 
+          grade assignments, conduct exams, and provide feedback to students.

@@ -2,7 +2,7 @@
 layout: page
 title: Transport properties of asymmetric Josephson junctions
 description: Project on the transport properties of asymmetric Josephson junctions examining IV-characteristics, critical current, and the influence of asymmetry on superconducting behavior.
-img: assets/img/ASYMJJ
+img: /assets/img/ASYMJJ.png
 importance: 2
 category: Physics
 giscus_comments: true
