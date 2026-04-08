@@ -8,7 +8,7 @@ first_name: Sagar
 last_name: Clemensen
 custom_font: sakana # Sakana font from dafont.com - host .woff/.woff2 files in assets/fonts/
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  For the best way to contact me, please send me an email at fck916@alumni.ku.dk.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website for Sagar Clemensen.
 footer_text: >
