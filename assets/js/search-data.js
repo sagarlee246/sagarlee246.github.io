@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Updated as of April 2026",
           section: "Navigation",
           handler: () => {
             window.location.href = "/CV/";
@@ -405,29 +405,29 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-teaching-and-understanding-the-quantum-hall-effect-experimentally",
+          title: 'Teaching and Understanding the Quantum Hall Effect Experimentally',
+          description: "Bachelor thesis project on the quantum Hall effect.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-transport-properties-of-asymmetric-josephson-junctions",
+          title: 'Transport properties of asymmetric Josephson junctions',
+          description: "Project on the transport properties of asymmetric Josephson junctions examining IV-characteristics, critical current, and the influence of asymmetry on superconducting behavior.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-construction-and-characterization-of-an-analog-lock-in-amplifier",
+          title: 'Construction and Characterization of an Analog Lock-In Amplifier',
+          description: "Building an analog lock-in amplifier from scratch, including design, construction, and testing of the amplifier&#39;s performance in extracting weak signals from noisy environments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-hidden-markov-models-for-predicting-stock-market-returns",
+          title: 'Hidden Markov models for predicting stock market returns',
+          description: "Using hidden Markov models to predict stock market returns for the Novo Nordisk stock.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-predicting-how-the-winner-of-f1-races-will-perform",
+          title: 'Predicting how the winner of F1 races will perform',
+          description: "Using machine learning to predict who will win the F1 races (insert) and how they will drive.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
@@ -441,25 +441,11 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/sagar-clemensen", "_blank");
         },
       },{
       id: 'light-theme',
