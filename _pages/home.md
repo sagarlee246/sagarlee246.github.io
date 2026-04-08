@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Greeting! I am Sagar Clemensen. Sagar is Indian (सागर in Hindi) and pronounced /'sɑːgər/. My parents met in India which is the reason for my Indian name despite my lack of Indian heritage.
+Greeting! I am Sagar Clemensen. Sagar is Indian (सागर in Hindi) and pronounced /'sɑːgər/. 
 
 <br>
 
