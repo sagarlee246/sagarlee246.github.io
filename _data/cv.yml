@@ -1,8 +1,15 @@
 cv:
   sections:
     Academic Interests:
-      I am interested in experimental quantum physics, specifically electronic characterization and fabrication of devices used in quantum computing. 
-      I am also interested in signal processing and data analysis. I am also interested in statistics and machine learning.
+      - name: Research Interests
+        keywords:
+          - experimental quantum physics
+          - electronic characterization
+          - fabrication of devices for quantum computing
+          - signal processing
+          - data analysis
+          - applied statistics
+          - machine learning
 
     Education:
       - institution: University of Copenhagen
@@ -33,16 +40,14 @@ cv:
         score: ""
 
     Coursework:
-    UW-Madison:
-      - bullet: Solid State Physics, Solid State Electronics, Cryptography
-    University of Copenhagen:
-      - bullet: Major area: Quantum Physics, Quantum devices, Electrical characterization, Nanofabrication, Signal processing, Computational Physics,  Data analysis, Applied Statistics, Machine learning
-      - bullet: Minor area: Classical Mechanics, Electromagnetism, Fluid Mechanics, Thermodynamics, Statistical Mechanics
-      - bullet: Other: Linear algebra, Calculus, Differential equations, Numerical methods
+      - bullet: "UW-Madison: Solid State Physics, Solid State Electronics, Cryptography"
+      - bullet: "University of Copenhagen (major area): Quantum Physics, Quantum Devices, Electrical Characterization, Nanofabrication, Signal Processing, Computational Physics, Data Analysis, Applied Statistics, Machine Learning"
+      - bullet: "University of Copenhagen (minor area): Classical Mechanics, Electromagnetism, Fluid Mechanics, Thermodynamics, Statistical Mechanics"
+      - bullet: "Other: Linear Algebra, Calculus, Differential Equations, Numerical Methods"
 
     Experience:
       - company: Allerød Gymnasium
-        position: Mathematics and Teacher
+        position: Mathematics Teacher
         location: Allerød, Denmark
         start_date: 2023
         end_date: 2025

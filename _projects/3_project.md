@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Construction and Characterization of an Analog Lock-In Amplifier
+description: Building an analog lock-in amplifier from scratch, including design, construction, and testing of the amplifier's performance in extracting weak signals from noisy environments.
+img: assets/img/LockIn
 importance: 3
 category: Physics
 ---

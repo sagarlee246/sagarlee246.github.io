@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Teaching and Understanding the Quantum Hall Effect Experimentally
+description: Bachelor thesis project on the quantum Hall effect.
+img: assets/img/QHE
 importance: 1
 category: Physics
 related_publications: true

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Hidden Markov models for predicting stock market returns
+description: Using hidden Markov models to predict stock market returns for the Novo Nordisk stock.
+img: assets/img/HMMStocks
 importance: 3
 category: Data Science
 ---

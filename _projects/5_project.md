@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Predicting how the winner of F1 races will perform
+description: Using machine learning to predict who will win the F1 races (insert) and how they will drive.
+img: assets/img/F1
 importance: 3
 category: Data Science
 ---
