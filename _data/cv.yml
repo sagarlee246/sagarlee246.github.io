@@ -1,7 +1,7 @@
 cv:
   sections:
     Academic Interests:
-        keywords:
+      - keywords:
           - experimental quantum physics
           - electronic characterization
           - fabrication of devices for quantum computing
