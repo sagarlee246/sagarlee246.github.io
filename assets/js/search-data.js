@@ -407,27 +407,27 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-teaching-and-understanding-the-quantum-hall-effect-experimentally",
           title: 'Teaching and Understanding the Quantum Hall Effect Experimentally',
-          description: "Bachelor thesis project on the quantum Hall effect.",
+          description: "An experimental and educational study of the integer quantum Hall effect using the Quantum Training Lab.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-transport-properties-of-asymmetric-josephson-junctions",
           title: 'Transport properties of asymmetric Josephson junctions',
-          description: "Project on the transport properties of asymmetric Josephson junctions examining IV-characteristics, critical current, and the influence of asymmetry on superconducting behavior.",
+          description: "An experimental study of asymmetric and symmetric Josephson junctions using IV characteristics, critical current, and superconducting gap measurements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-construction-and-characterization-of-an-analog-lock-in-amplifier",
           title: 'Construction and Characterization of an Analog Lock-In Amplifier',
-          description: "Building an analog lock-in amplifier from scratch, including design, construction, and testing of the amplifier&#39;s performance in extracting weak signals from noisy environments.",
+          description: "A breadboard-built analog lock-in amplifier used to recover a weak optical signal from noise.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-hidden-markov-models-for-predicting-stock-market-returns",
           title: 'Hidden Markov models for predicting stock market returns',
-          description: "Using hidden Markov models to predict stock market returns for the Novo Nordisk stock.",
+          description: "A stock-prediction project that uses a Gaussian hidden Markov model on Novo Nordisk returns.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-predicting-how-the-winner-of-f1-races-will-perform",
-          title: 'Predicting how the winner of F1 races will perform',
-          description: "Using machine learning to predict who will win the F1 races (insert) and how they will drive.",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
