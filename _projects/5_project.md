@@ -12,6 +12,6 @@ Beyond the Pit Wall explores how machine learning can be used to analyze Formula
 
 The main value of the project is the workflow itself: it shows how per-lap telemetry and race context can be turned into features that separate strategic choices from driving style and support predictive modeling. That makes the analysis useful both for exploratory race analysis and for building more ambitious motorsport models later on.
 
-This report is a good starting point for anyone who wants to work with race telemetry, feature engineering, and supervised or unsupervised learning on Formula 1 data.
+This project is a good starting point for anyone who wants to work with race telemetry, feature engineering, and supervised or unsupervised learning on Formula 1 data.
 
-[Read the full report]({{ page.pdf | relative_url | uri_escape }})
+[Read the slides]({{ page.pdf | relative_url | uri_escape }})
