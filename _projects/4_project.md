@@ -3,7 +3,7 @@ layout: page
 title: Hidden Markov models for predicting stock market returns
 description: A stock-prediction project that uses a Gaussian hidden Markov model on Novo Nordisk returns.
 img: /assets/img/HMMStocks.jpg
-importance: 3
+importance: 4
 category: Data Science
 pdf: /assets/pdf/Hidden_Markov_models_for_predicting_stock_market_returns.pdf
 ---
