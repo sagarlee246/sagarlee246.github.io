@@ -16,10 +16,11 @@ nav_order: 3
 ## GitHub Repositories
 
 <div class="repo-gallery">
-  <a class="repo-tile" href="https://github.com/sagarlee246/CPPJourney">
+
+  <!-- <a class="repo-tile" href="https://github.com/sagarlee246/CPPJourney">
     <img class="repo-image repo-image-square" src="{{ '/assets/img/CPPlogo.png' | relative_url | bust_file_cache }}" alt="CPP Journey">
     <span>CPP Journey</span>
-  </a>
+  </a> -->
 
   <a class="repo-tile" href="https://github.com/sagarlee246/AMAS">
     <img class="repo-image" src="{{ '/assets/img/AMAS.png' | relative_url | bust_file_cache }}" alt="AMAS">
@@ -30,6 +31,7 @@ nav_order: 3
     <img class="repo-image" src="{{ '/assets/img/AS.png' | relative_url | bust_file_cache }}" alt="AppStat">
     <span>AppStat</span>
   </a>
+
 </div>
 
 <style>
