@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Beyond the Pit Wall: Machine Learning in Formula 1
+title: "Beyond the Pit Wall: Machine Learning in Formula 1"
 description: A Formula 1 machine-learning project using OpenF1 data to classify tyre compounds, cluster driving styles, and predict lap times.
 img: /assets/img/F1.jpg
 importance: 5

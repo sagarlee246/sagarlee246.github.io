@@ -30,4 +30,4 @@ Greeting! I am Sagar Clemensen. Sagar is Indian (सागर in Hindi) and pron
 
 <br>
 
-I am a first year master student in the Physics department at the University of Copenhagen. I work with experimental quantum physics, specifically electrical characterization of quantum materials. I am also interested in statistics, data analysis, and machine learning.
+I am a second year master student in the Physics department at the University of Copenhagen currently working on my thesis. I work with experimental quantum physics, specifically design, fabrication, and electrical characterization of Josephson junctions. I am also interested in statistics, data analysis, and machine learning.
