@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: teaching section is currently inactive.
-nav: false
+description: An overview of my solutions to problems from courses where I have been a TA.
+nav: true
 nav_order: 6
 ---
 
-This section is currently dormant.
+Here is an overview of my solutions to problems from the different courses where I have been a TA.
 
-When you are ready to re-enable it, set `nav: true` in this file.
+## Courses
+
+- [Elektromagnetisme]({{ '/teaching/elektromagnetisme/' | relative_url }})
