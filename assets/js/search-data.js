@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Interests/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "An overview of my solutions to problems from courses where I have been a TA.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -435,6 +442,11 @@ ninja.data = [{
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-elektromagnetisme",
+          title: 'Elektromagnetisme',
+          description: "Solutions to problems from Elektromagnetisme.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/elektromagnetisme/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
